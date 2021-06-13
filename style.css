@@ -1,0 +1,14 @@
+.newsletter{
+    background-color: #6f42c1;
+    width: 60%;
+    margin: auto;
+    margin-top: -3%;
+    border-radius: 7px;
+}
+
+@media(max-width: 640px){
+    .newsletter{
+        width: 90%;
+    }
+
+}
