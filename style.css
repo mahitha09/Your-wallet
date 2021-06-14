@@ -23,7 +23,6 @@ img{
 
 .newsletter{
     background-color: #6f42c1;
-    padding: 20px;
     margin: auto;
     width: 100%;
 }
@@ -73,8 +72,23 @@ img{
 }
 
 /*services*/
-.card{
-    background-color: transparent;
-    outline: none;
+
+#services .card{
+    background-color: #6f42c1;
+}
+
+.card-img{
+    height: 130px;
+
+}
+
+/*How it works*/
+#howitworks .card{
     border: none;
 }
+
+#howitworks .card-body i{
+    color: #6f42c1;
+    font-size: 40px;
+}
+

@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | YourWallet</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
    
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top pt-3"> <!--Navbar Start-->
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top pt-3">
         <div class="container">
             <a href="#" class="navbar-brand">Y | W</a> <!--LOGO-->
              <!-- Hamburger Button-->
@@ -49,20 +51,20 @@
         </div>
     </nav>
 
-    <section class="bg-dark text-light text-center text-lg-start">       <!--HERO SECTION-->
+    <!--Hero section-->
+    <section class="bg-dark text-light text-center text-lg-start">       
         <div class="container hero-section">
             <div>
                 <h1>Manage your<span class="text-warning"> Finances </span>like a pro.</h1>
-                <p class="lead my-3">Book a free appointment with us to get started.</p>
+                <p class="lead my-3">Book a free appointment with us to get started. <span class="badge bg-warning text-dark">New</span></p>
                 <button class="btn btn-lg" style="background-color: #6f42c1; color:#fff;">Enroll Today</button>
             </div>
-            <img class="img-fluid" src="heroimg.svg" alt="Heroimg">
+            <img class="img-fluid" src="img/heroimg.svg" alt="Heroimg">
         </div>
     </section>
 
     <!--NewsLetter-->
-
-    <section class="newsletter">
+    <section class="newsletter p-5">
         <div class="container">
             <div class="newsletter-div">
                 <h5 class="text-light">Sign up for weekly value bundles!</h5>
@@ -75,54 +77,81 @@
     </section>
 
     <!--Services-->
-    <section class="bg-light p-5">
-        <div class="container">
-            <h3 class="text-center" style="color: #6f42c1;">Services</h3>
-            <div class="row text-center">
+    <section class="bg-light p-5" id="services">
+        <div class="container mt-3">
+            <h2 class="text-center">What we <span style="color: #6f42c1;">offer</span></h2>
+            <div class="row text-center mt-5">
                 <div class="col-md">
-                    <div class="card text-dark">
+                    <div class="card text-light bg-dark g-3">
                         <div class="card-body text-center">
-                            <div class="h1">
-                                <img src="" alt="">
-                            </div>
+                            <img src="img/card1.svg" alt="card-1" class="card-img mt-4 mb-5">
                             <div class="card-title mb-3">
-                                <h5 class="mb-3">Lorem, ipsum dolor.</h5>
-                                <a href="#" class="btn" style="background-color: #6f42c1; color:#fff">Read More</a>
+                                <h5 class="mb-3">Profitable personal Finance</h5>
+                                <a href="#" class="btn text-light" style="background-color: #6f42c1;">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="card text-dark">
+                    <div class="card text-light bg-dark g-3">
                         <div class="card-body text-center">
-                            <div class="h1">
-                                <img src="" alt="">
-                            </div>
+                            
+                            <img src="img/card2.svg" alt="card-2" class="card-img mt-4 mb-5">
                             <div class="card-title mb-3">
-                                <h5  class="mb-3">Lorem, ipsum dolor.</h5>
-                                <a href="#" class="btn btn-dark">Read More</a>
+                                <h5 class="mb-3">Better Investment options</h5>
+                                <a href="#" class="btn text-light" style="background-color: #6f42c1;">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="card text-dark">
+                    <div class="card text-light bg-dark g-3">
                         <div class="card-body text-center">
-                            <div class="h1">
-                                <img src="" alt="">
-                            </div>
+                            <img src="img/card3.svg" alt="card-3" class="card-img mt-4 mb-5 p-3">
                             <div class="card-title mb-3">
-                                <h5 class="mb-3">Lorem, ipsum dolor.</h5>
-                                <a href="#" class="btn text-light" style="background-color: #6f42c1; color:#fff">Read More</a>
+                                <h5 class="mb-3">Complete savings consulting</h5>
+                                <a href="#" class="btn text-light" style="background-color: #6f42c1;">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
-
+               
             </div>
         </div>
-        
-        
+    </section>
+
+    <!--How it works-->
+    <section class="p-5 bg-light" id="howitworks">
+        <div class="container mt-3">
+            <h2 class="text-center">How it<span style="color: #6f42c1;"> works</span></h2>
+            <div class="row text-center mt-5">
+                <div class="col-md">
+                  <div class="card">
+                    <div class="card-body">
+                        <i class="bi bi-arrow-down-square-fill"></i>
+                        <h5 class="card-title mt-3"> Download the app</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="card">
+                    <div class="card-body">
+                        <i class="bi bi-calendar-check-fill text-warning"></i>
+                        <h5 class="card-title mt-3">Book an appointment</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md">
+                    <div class="card text-center">
+                      <div class="card-body">
+                        <i class="bi bi-arrow-up-right-square-fill"></i>
+                        <h5 class="card-title mt-3">Level up your Finance game</h5>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
     
 
