@@ -92,3 +92,12 @@ img{
     font-size: 40px;
 }
 
+/*Testimonials*/
+.testimonial-box{
+    background-color: #6f42c1;
+}
+
+.testimonial-box .card{
+    background-color: transparent;
+    border: none;
+}
